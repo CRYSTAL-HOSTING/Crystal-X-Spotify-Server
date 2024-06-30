@@ -38,7 +38,7 @@ export const callbackRoute = async (
       level: "info",
       message: err.message,
     });
-    res.status(500).json({ error: "Internal server error" });
+    res.status(500).json({ error: "Internal Server Error" });
   }
 };
 
@@ -47,5 +47,5 @@ export const homeRoute = async (
   res: Response,
   next: NextFunction
 ) => {
-  res.status(200).send("Welcome to spotipie authserver");
+  res.status(200).send("Welcome To Crystal X Spotify Auth Server ! Check Back The Telegram Bot For Results !");
 };
