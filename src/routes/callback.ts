@@ -47,5 +47,5 @@ export const homeRoute = async (
   res: Response,
   next: NextFunction
 ) => {
-  res.status(200).send("Welcome To Crystal X Spotify Auth Server ! Check Back The Telegram Bot For Results !");
+  res.status(200).send("Welcome To Crystal X Spotify Auth Server !");
 };
